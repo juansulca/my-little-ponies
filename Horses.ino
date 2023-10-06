@@ -23,7 +23,7 @@ void loop()
   {
     if (isActive)
     {
-      mainAxis.write(75);
+      mainAxis.write(105);
     }
     else
     {
@@ -31,7 +31,7 @@ void loop()
     }
 
     lightSensorValue = analogRead(LIGHT_SENSOR);
-    if (lightSensorValue <= 600)
+    if (lightSensorValue <= 880)
     {
       isActive = true;
     }

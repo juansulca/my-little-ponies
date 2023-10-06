@@ -1,5 +1,5 @@
 {
     "board": "arduino:samd:nano_33_iot",
-    "port": "/dev/tty.usbmodem21101",
+    "port": "/dev/tty.usbmodem11401",
     "sketch": "Horses.ino"
 }
